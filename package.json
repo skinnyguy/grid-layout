@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "jquery": "^3.4.1"
+  },
+  "name": "@skinnyguy/grid-layout",
+  "version": "1.0.0",
+  "description": "CSS - Template Responsive Grid Layout",
+  "main": "src/index.js",
+  "repository": "https://github.com/github:skinnyguy/grid-layout",
+  "author": "Adi Hermawan <adidot78@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "grunt": "^1.0.4"
+  }
+}
