@@ -12,5 +12,14 @@
   },
   "devDependencies": {
     "grunt": "^1.0.4"
+  },
+  "engines": {
+    "node": ">=12.13.1"
+  },
+  "keywords": ["css", "sass", "scss", "preprocessor", "style", "layout", "grid"],
+  "maintainers": ["@skinnyguy"],
+  "bugs": {
+    "email": "adidot78@gmail.com",
+    "url": "https://github.com/skinnyguy/grid-layout/issues"
   }
 }
