@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "CSS - Template Responsive Grid Layout",
   "main": "src/index.js",
-  "repository": "https://github.com/github:skinnyguy/grid-layout",
+  "repository": "github:skinnyguy/grid-layout",
   "author": "Adi Hermawan <adidot78@gmail.com>",
   "license": "MIT",
   "private": false,
