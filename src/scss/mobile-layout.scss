@@ -4,129 +4,131 @@
 //  > 960px < 1024px
 
 @media only screen and (min-device-width: 960px) and (max-device-width: 1024px) {
-  ._lg-12 {
-    flex-basis: $grid-layout-12;
-    max-width: $grid-layout-12;
+  ._row {
+    ._lg-12 {
+      flex-basis: $grid-layout-12;
+      max-width: $grid-layout-12;
+    }
+
+    ._lg-11 {
+      flex-basis: $grid-layout-11;
+      max-width: $grid-layout-11;
+    }
+
+    ._lg-10 {
+      flex-basis: $grid-layout-10;
+      max-width: $grid-layout-10;
+    }
+
+    ._lg-9 {
+      flex-basis: $grid-layout-9;
+      max-width: $grid-layout-9;
+    }
+
+    ._lg-8 {
+      flex-basis: $grid-layout-8;
+      max-width: $grid-layout-8;
+    }
+
+    ._lg-7 {
+      flex-basis: $grid-layout-7;
+      max-width: $grid-layout-7;
+    }
+
+    ._lg-6 {
+      flex-basis: $grid-layout-6;
+      max-width: $grid-layout-6;
+    }
+
+    ._lg-5 {
+      flex-basis: $grid-layout-5;
+      max-width: $grid-layout-5;
+    }
+
+    ._lg-4 {
+      flex-basis: $grid-layout-4;
+      max-width: $grid-layout-4;
+    }
+
+    ._lg-3 {
+      flex-basis: $grid-layout-3;
+      max-width: $grid-layout-3;
+    }
+
+    ._lg-2 {
+      flex-basis: $grid-layout-2;
+      max-width: $grid-layout-2;
+    }
+
+    ._lg-1 {
+      flex-basis: $grid-layout-1;
+      max-width: $grid-layout-1;
+    }
   }
 
-  ._lg-11 {
-    flex-basis: $grid-layout-11;
-    max-width: $grid-layout-11;
-  }
+  //  Media query for medium device (mobile)
+  //  > 768px < 960px
 
-  ._lg-10 {
-    flex-basis: $grid-layout-10;
-    max-width: $grid-layout-10;
-  }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 960px) {
+    ._md-12 {
+      flex-basis: $grid-layout-12;
+      max-width: $grid-layout-12;
+    }
 
-  ._lg-9 {
-    flex-basis: $grid-layout-9;
-    max-width: $grid-layout-9;
-  }
+    ._md-11 {
+      flex-basis: $grid-layout-11;
+      max-width: $grid-layout-11;
+    }
 
-  ._lg-8 {
-    flex-basis: $grid-layout-8;
-    max-width: $grid-layout-8;
-  }
+    ._md-10 {
+      flex-basis: $grid-layout-10;
+      max-width: $grid-layout-10;
+    }
 
-  ._lg-7 {
-    flex-basis: $grid-layout-7;
-    max-width: $grid-layout-7;
-  }
+    ._md-9 {
+      flex-basis: $grid-layout-9;
+      max-width: $grid-layout-9;
+    }
 
-  ._lg-6 {
-    flex-basis: $grid-layout-6;
-    max-width: $grid-layout-6;
-  }
+    ._md-8 {
+      flex-basis: $grid-layout-8;
+      max-width: $grid-layout-8;
+    }
 
-  ._lg-5 {
-    flex-basis: $grid-layout-5;
-    max-width: $grid-layout-5;
-  }
+    ._md-7 {
+      flex-basis: $grid-layout-7;
+      max-width: $grid-layout-7;
+    }
 
-  ._lg-4 {
-    flex-basis: $grid-layout-4;
-    max-width: $grid-layout-4;
-  }
+    ._md-6 {
+      flex-basis: $grid-layout-6;
+      max-width: $grid-layout-6;
+    }
 
-  ._lg-3 {
-    flex-basis: $grid-layout-3;
-    max-width: $grid-layout-3;
-  }
+    ._md-5 {
+      flex-basis: $grid-layout-5;
+      max-width: $grid-layout-5;
+    }
 
-  ._lg-2 {
-    flex-basis: $grid-layout-2;
-    max-width: $grid-layout-2;
-  }
+    ._md-4 {
+      flex-basis: $grid-layout-4;
+      max-width: $grid-layout-4;
+    }
 
-  ._lg-1 {
-    flex-basis: $grid-layout-1;
-    max-width: $grid-layout-1;
-  }
-}
+    ._md-3 {
+      flex-basis: $grid-layout-3;
+      max-width: $grid-layout-3;
+    }
 
-//  Media query for medium device (mobile)
-//  > 768px < 960px
+    ._md-2 {
+      flex-basis: $grid-layout-2;
+      max-width: $grid-layout-2;
+    }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 960px) {
-  ._md-12 {
-    flex-basis: $grid-layout-12;
-    max-width: $grid-layout-12;
-  }
-
-  ._md-11 {
-    flex-basis: $grid-layout-11;
-    max-width: $grid-layout-11;
-  }
-
-  ._md-10 {
-    flex-basis: $grid-layout-10;
-    max-width: $grid-layout-10;
-  }
-
-  ._md-9 {
-    flex-basis: $grid-layout-9;
-    max-width: $grid-layout-9;
-  }
-
-  ._md-8 {
-    flex-basis: $grid-layout-8;
-    max-width: $grid-layout-8;
-  }
-
-  ._md-7 {
-    flex-basis: $grid-layout-7;
-    max-width: $grid-layout-7;
-  }
-
-  ._md-6 {
-    flex-basis: $grid-layout-6;
-    max-width: $grid-layout-6;
-  }
-
-  ._md-5 {
-    flex-basis: $grid-layout-5;
-    max-width: $grid-layout-5;
-  }
-
-  ._md-4 {
-    flex-basis: $grid-layout-4;
-    max-width: $grid-layout-4;
-  }
-
-  ._md-3 {
-    flex-basis: $grid-layout-3;
-    max-width: $grid-layout-3;
-  }
-
-  ._md-2 {
-    flex-basis: $grid-layout-2;
-    max-width: $grid-layout-2;
-  }
-
-  ._md-1 {
-    flex-basis: $grid-layout-1;
-    max-width: $grid-layout-1;
+    ._md-1 {
+      flex-basis: $grid-layout-1;
+      max-width: $grid-layout-1;
+    }
   }
 }
 
@@ -134,127 +136,131 @@
 //  > 480px < 768px
 
 @media only screen and (min-device-width: 480px) and (max-device-width: 768px) {
-  ._sm-12 {
-    flex-basis: $grid-layout-12;
-    max-width: $grid-layout-12;
-  }
+  ._row {
+    ._sm-12 {
+      flex-basis: $grid-layout-12;
+      max-width: $grid-layout-12;
+    }
 
-  ._sm-11 {
-    flex-basis: $grid-layout-11;
-    max-width: $grid-layout-11;
-  }
+    ._sm-11 {
+      flex-basis: $grid-layout-11;
+      max-width: $grid-layout-11;
+    }
 
-  ._sm-10 {
-    flex-basis: $grid-layout-10;
-    max-width: $grid-layout-10;
-  }
+    ._sm-10 {
+      flex-basis: $grid-layout-10;
+      max-width: $grid-layout-10;
+    }
 
-  ._sm-9 {
-    flex-basis: $grid-layout-9;
-    max-width: $grid-layout-9;
-  }
+    ._sm-9 {
+      flex-basis: $grid-layout-9;
+      max-width: $grid-layout-9;
+    }
 
-  ._sm-8 {
-    flex-basis: $grid-layout-8;
-    max-width: $grid-layout-8;
-  }
+    ._sm-8 {
+      flex-basis: $grid-layout-8;
+      max-width: $grid-layout-8;
+    }
 
-  ._sm-7 {
-    flex-basis: $grid-layout-7;
-    max-width: $grid-layout-7;
-  }
+    ._sm-7 {
+      flex-basis: $grid-layout-7;
+      max-width: $grid-layout-7;
+    }
 
-  ._sm-6 {
-    flex-basis: $grid-layout-6;
-    max-width: $grid-layout-6;
-  }
+    ._sm-6 {
+      flex-basis: $grid-layout-6;
+      max-width: $grid-layout-6;
+    }
 
-  ._sm-5 {
-    flex-basis: $grid-layout-5;
-    max-width: $grid-layout-5;
-  }
+    ._sm-5 {
+      flex-basis: $grid-layout-5;
+      max-width: $grid-layout-5;
+    }
 
-  ._sm-4 {
-    flex-basis: $grid-layout-4;
-    max-width: $grid-layout-4;
-  }
+    ._sm-4 {
+      flex-basis: $grid-layout-4;
+      max-width: $grid-layout-4;
+    }
 
-  ._sm-3 {
-    flex-basis: $grid-layout-3;
-    max-width: $grid-layout-3;
-  }
+    ._sm-3 {
+      flex-basis: $grid-layout-3;
+      max-width: $grid-layout-3;
+    }
 
-  ._sm-2 {
-    flex-basis: $grid-layout-2;
-    max-width: $grid-layout-2;
-  }
+    ._sm-2 {
+      flex-basis: $grid-layout-2;
+      max-width: $grid-layout-2;
+    }
 
-  ._sm-1 {
-    flex-basis: $grid-layout-1;
-    max-width: $grid-layout-1;
+    ._sm-1 {
+      flex-basis: $grid-layout-1;
+      max-width: $grid-layout-1;
+    }
   }
 }
 
 //  Media query for ekstra small device (mobile)
 //  < 480p
 @media only screen and (max-device-width: 480px) {
-  ._xs-12 {
-    flex-basis: $grid-layout-12;
-    max-width: $grid-layout-12;
-  }
+  ._row {
+    ._xs-12 {
+      flex-basis: $grid-layout-12;
+      max-width: $grid-layout-12;
+    }
 
-  ._xs-11 {
-    flex-basis: $grid-layout-11;
-    max-width: $grid-layout-11;
-  }
+    ._xs-11 {
+      flex-basis: $grid-layout-11;
+      max-width: $grid-layout-11;
+    }
 
-  ._xs-10 {
-    flex-basis: $grid-layout-10;
-    max-width: $grid-layout-10;
-  }
+    ._xs-10 {
+      flex-basis: $grid-layout-10;
+      max-width: $grid-layout-10;
+    }
 
-  ._xs-9 {
-    flex-basis: $grid-layout-9;
-    max-width: $grid-layout-9;
-  }
+    ._xs-9 {
+      flex-basis: $grid-layout-9;
+      max-width: $grid-layout-9;
+    }
 
-  ._xs-8 {
-    flex-basis: $grid-layout-8;
-    max-width: $grid-layout-8;
-  }
+    ._xs-8 {
+      flex-basis: $grid-layout-8;
+      max-width: $grid-layout-8;
+    }
 
-  ._xs-7 {
-    flex-basis: $grid-layout-7;
-    max-width: $grid-layout-7;
-  }
+    ._xs-7 {
+      flex-basis: $grid-layout-7;
+      max-width: $grid-layout-7;
+    }
 
-  ._xs-6 {
-    flex-basis: $grid-layout-6;
-    max-width: $grid-layout-6;
-  }
+    ._xs-6 {
+      flex-basis: $grid-layout-6;
+      max-width: $grid-layout-6;
+    }
 
-  ._xs-5 {
-    flex-basis: $grid-layout-5;
-    max-width: $grid-layout-5;
-  }
+    ._xs-5 {
+      flex-basis: $grid-layout-5;
+      max-width: $grid-layout-5;
+    }
 
-  ._xs-4 {
-    flex-basis: $grid-layout-4;
-    max-width: $grid-layout-4;
-  }
+    ._xs-4 {
+      flex-basis: $grid-layout-4;
+      max-width: $grid-layout-4;
+    }
 
-  ._xs-3 {
-    flex-basis: $grid-layout-3;
-    max-width: $grid-layout-3;
-  }
+    ._xs-3 {
+      flex-basis: $grid-layout-3;
+      max-width: $grid-layout-3;
+    }
 
-  ._xs-2 {
-    flex-basis: $grid-layout-2;
-    max-width: $grid-layout-2;
-  }
+    ._xs-2 {
+      flex-basis: $grid-layout-2;
+      max-width: $grid-layout-2;
+    }
 
-  ._xs-1 {
-    flex-basis: $grid-layout-1;
-    max-width: $grid-layout-1;
+    ._xs-1 {
+      flex-basis: $grid-layout-1;
+      max-width: $grid-layout-1;
+    }
   }
 }
