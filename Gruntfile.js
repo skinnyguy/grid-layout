@@ -5,11 +5,11 @@ module.exports = function (grunt) {
     //  Task converting scss/sass to css (expanded)
     sass: {
       dist: {
-        options: { sourcemap: 'none' },
+        options: { sourcemap: 'none', style: 'expanded' },
         files: [{
           expand: true,
           cwd: './src/scss',
-          src: ['main-grid-layout.scss'],
+          src: ['grid-layout.scss'],
           dest: './dist/css',
           ext: '.css'
         }]
