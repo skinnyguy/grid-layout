@@ -65,11 +65,13 @@
       max-width: $grid-layout-1;
     }
   }
+}
 
-  //  Media query for medium device (mobile)
-  //  > 768px < 960px
+//  Media query for medium device (mobile)
+//  > 768px < 960px
 
-  @media only screen and (min-device-width: 768px) and (max-device-width: 960px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 960px) {
+  ._row {
     ._md-12 {
       flex-basis: $grid-layout-12;
       max-width: $grid-layout-12;
